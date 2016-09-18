@@ -1,5 +1,5 @@
 # javaone2016
-Android and IBM Watson  - a short lab on making your app cognitive with sentiment analysis
+Android and IBM Watson  - a short lab on making your app cognitive with sentiment analysis - check this Workshop preview: [https://developer.ibm.com/tv/javaone-cognitive-workshop/](https://developer.ibm.com/tv/javaone-cognitive-workshop/)
 
 [![youtube from https://developer.ibm.com/tv/javaone-cognitive-workshop/](https://o.twimg.com/2/proxy.jpg?t=HBhpaHR0cHM6Ly9kZXZlbG9wZXIuaWJtLmNvbS90di93cC1jb250ZW50L3VwbG9hZHMvc2l0ZXMvNjIvMjAxNi8wOS9TY3JlZW4tU2hvdC0yMDE2LTA5LTE0LWF0LTEuMTguMjgtUE0ucG5nFOQTFKwKHBSEBhSUAwAAFgASAA&s=0Ae4L9nPzpUGmyuMD9Tkj-HhV6s1nkFi9_fd3YtAGrQ)](http://ibm.biz/WatsonWorkshop4javaOne2016)
 
@@ -142,9 +142,9 @@ If you click [Analyze!] button you should be able to see the result at the [Text
 
 ## Step 2: Add the Watson SDK to your project
 
-Check the detaily described steps here at (Watson Developer Cloud SDK for JAVA)[https://github.com/watson-developer-cloud/java-sdk]
+Check the detaily described steps here at [Watson Developer Cloud SDK for JAVA](https://github.com/watson-developer-cloud/java-sdk)
 
-Alternatively (download the java library for the SDK from here)[https://github.com/watson-developer-cloud/java-sdk/releases/download/java-sdk-3.3.1/java-sdk-3.3.1-jar-with-dependencies.jar] and place it in the lib folder to get in included for the environment.
+Alternatively download [the java library for the SDK from here](https://github.com/watson-developer-cloud/java-sdk/releases/download/java-sdk-3.3.1/java-sdk-3.3.1-jar-with-dependencies.jar) and place it in the lib folder to get in included for the environment.
 
 In order to make it work place the downloaded jar file in the libs folder under the app root directory in apps/libs:
 
@@ -324,4 +324,4 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-Please follow me on Twitter: @blumareks, and check my blog on blumareks.blogspot.com
+Please follow me on Twitter: @blumareks, and check my blog on [blumareks.blogspot.com](http://blumareks.blogspot.com)
