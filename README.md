@@ -1,6 +1,9 @@
 # javaone2016
 Android and IBM Watson  - a short lab on making your app cognitive with sentiment analysis
 
+[![youtube from https://developer.ibm.com/tv/javaone-cognitive-workshop/](https://o.twimg.com/2/proxy.jpg?t=HBhpaHR0cHM6Ly9kZXZlbG9wZXIuaWJtLmNvbS90di93cC1jb250ZW50L3VwbG9hZHMvc2l0ZXMvNjIvMjAxNi8wOS9TY3JlZW4tU2hvdC0yMDE2LTA5LTE0LWF0LTEuMTguMjgtUE0ucG5nFOQTFKwKHBSEBhSUAwAAFgASAA&s=0Ae4L9nPzpUGmyuMD9Tkj-HhV6s1nkFi9_fd3YtAGrQ)](http://ibm.biz/WatsonWorkshop4javaOne2016)
+
+
 ## Overview
 
 This lab shows you how to build a mobile application that will analyze tone, or sentiment, in text. You’ll build the application in Java/Android and use the IBM Watson AlchemyAPI service to analyze sentiment conveyed in text. 
