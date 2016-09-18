@@ -143,3 +143,32 @@ Check the detaily described steps here at (Watson Developer Cloud SDK for JAVA)[
 
 Alternatively (download the java library for the SDK from here)[https://github.com/watson-developer-cloud/java-sdk/releases/download/java-sdk-3.3.1/java-sdk-3.3.1-jar-with-dependencies.jar] and place it in the lib folder to get in included for the environment.
 
+In order to make it work place the downloaded jar file in the libs folder under the app root directory in apps/libs:
+
+You should be able to see the app in the libs folder in the projects view in the Android Studio.
+Then double click on the jar to add it to the [app] as the library:
+
+Finally we are able to import Watson libraries:
+
+Now we need to allow to call Watson service from our app.
+Double click /app/manifest/AndroidManifest.xml in the view [Android]:
+
+Add the following under <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ibm.sentimentsensitiveapp">
+```xml
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+```
+
+The entire look of the xml file:
+
+
+### Step 2a. Create a Watson service and get the key token for it
+Now, you create the Watson AlchemyAPI service. 
+From the IBM Bluemix catalog, click Watson > AlchemyAPI > Create. Be sure to use a static API key as shown in the following image.
+Find the Service Credentials.
+
+Bluemix provides your credentials in JSON format. The JSON snippet lists credentials, such as the API key and secret, and connection information for the service. 
+
+
+
