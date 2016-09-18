@@ -29,22 +29,22 @@ For now you would take the text in the text field and simply echo it in the labe
 
 ### Building UI
 
-You start with the New Project.
+You start with the `New Project`.
 Give the app name, and enter your company domain name.
 Choose the environment the app would run on (I select API 22 - Android 5.1 Lollipop).
-I will add an empty activity.
+I will add an `empty activity`.
 I would keep the defaults for the activity.
 Wait till gradle builds the environment.
-When it is done select [res] and [layout] and double click on [activity_main.xml]
-When the UI designer appears you might want to select the TextView widget on the simulator - the selected text shows "Hello World!".
-Let's add PlainText field to enter text to be analyzed by Watson Sentiment Analysis service.
+When it is done select `res` and `layout` and double click on `activity_main.xml`
+When the UI designer appears you might want to select the `TextView` widget on the simulator - the selected text shows "Hello World!".
+Let's add `PlainText` field to enter text to be analyzed by Watson Sentiment Analysis service.
 Double click on the widget to add a value (some test text).
-And also let's add the Button to fire an action.
+And also let's add the `Button` to fire an action.
 Double click on the widget to add a value (a text caption on the button ).
 
 ### Wiring UI with the code
 
-Get back to the code by selecting [java], your appName (with your company domain name) and [MainActivity] - you need to double click the activity
+Get back to the code by selecting `java`, your `appName` (with your company domain name) and `MainActivity` - you need to double click the activity
 
 Add necessary parameters just after the import section (first thing in the class definition): textField, editField, button. It should generate the adequate imports:
 
@@ -138,7 +138,7 @@ private class AskWatsonTask extends AsyncTask<String, Void, String> {
  ````
 
 Now we are ready to run the simulator - press the green "PLAY" arrow next to the "APP"
-If you click [Analyze!] button you should be able to see the result at the [TextView] field.
+If you click `Analyze!` button you should be able to see the result at the `TextView` field.
 
 ## Step 2: Add the Watson SDK to your project
 
@@ -154,7 +154,7 @@ Then double click on the jar to add it to the [app] as the library:
 Finally we are able to import Watson libraries:
 
 Now we need to allow to call Watson service from our app.
-Double click /app/manifest/AndroidManifest.xml in the view [Android]:
+Double click `/app/manifest/AndroidManifest.xml` in the view `Android`:
 
 After the following pice of the xml 
 ```xml
@@ -169,6 +169,7 @@ After the following pice of the xml
 ```
 
 The entire look of the xml file:
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
@@ -238,7 +239,7 @@ When we run the app in the simulator, and hit the Analyze button, in the UI we s
 ```
 
 
-This is the complete code for the application: 
+*This is the complete code for the application:*
 ```java
 package com.ibm.sentimentsensitiveapp;
 
