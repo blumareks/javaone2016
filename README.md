@@ -45,7 +45,7 @@ Get back to the code by selecting [java], your appName (with your company domain
 
 Add necessary parameters just after the import section (first thing in the class definition): textField, editField, button. It should generate the adequate imports:
 
-```android
+```java
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
 
 Then you need to initialize the view and the UI parameters.
 
-```android
+```java
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -74,7 +74,7 @@ Then you need to initialize the view and the UI parameters.
 ```
 
 Then fire an action (through onClickListener) when the button is pressed.
-```android
+```java
  @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -105,7 +105,7 @@ Then fire an action (through onClickListener) when the button is pressed.
 Now we need to add the fake AskWatson task that manages the thread for listener.
 The text needs to be added just before the onCreate method.
 
-```android
+```java
 
 private class AskWatsonTask extends AsyncTask<String, Void, String> {
         @Override
@@ -153,15 +153,44 @@ Finally we are able to import Watson libraries:
 Now we need to allow to call Watson service from our app.
 Double click /app/manifest/AndroidManifest.xml in the view [Android]:
 
-Add the following under <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+After the following pice of the xml 
+```xml
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.ibm.sentimentsensitiveapp">
+    ```
+... add the following   
+
 ```xml
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 ```
 
 The entire look of the xml file:
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ibm.sentimentsensitiveapp">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
+
+```
 
 ### Step 2a. Create a Watson service and get the key token for it
 Now, you create the Watson AlchemyAPI service. 
