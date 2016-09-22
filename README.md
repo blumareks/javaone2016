@@ -216,7 +216,7 @@ import com.ibm.watson.developer_cloud.alchemy.v1.model.DocumentSentiment;
 
 Then we can expand the AskWatsonTask private class. First we need to instantiate the AlchemyApi service:
 
-```android
+```java
 AlchemyLanguage service = new AlchemyLanguage();
             service.setApiKey("<here goes AlchemyAPI key from Bluemix>");
 
