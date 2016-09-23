@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
             } else {
                 textToSay = String.valueOf(editText3.getText());
             }
-            streamPlayer.playStream(textService.synthesize(textToSay, Voice.EN_LISA).execute());
+            streamPlayer.playStream(textService.synthesize(textToSay, Voice.EN_MICHAEL).execute());
             return "text to speech done";
 
         }
