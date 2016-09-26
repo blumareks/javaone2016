@@ -2,7 +2,7 @@
 Android and IBM Watson  - a short lab on making your app cognitive with sentiment analysis - check this Workshop preview: [https://developer.ibm.com/tv/javaone-cognitive-workshop/](https://developer.ibm.com/tv/javaone-cognitive-workshop/)
 
 - the additional demo shown during JavaOne on [Text-to-Speech in Android app](https://github.com/blumareks/javaone2016/tree/master/WatsonSpeaks)
-- are you looking for a similar course for iOS and Swift? Check the MooC: [Massive Open Online Course by me hosted by DeveloperWorks](https://developer.ibm.com/courses/all-courses/create-swift-mobile-apps-with-ibm-watson-services/)
+- are you looking for a similar course for iOS and Swift? Check the MooC: [Massive Open Online Course by me hosted by DeveloperWorks](http://ibm.biz/ios-watson-espresso-labs)
 
 [![youtube from https://developer.ibm.com/tv/javaone-cognitive-workshop/](https://o.twimg.com/2/proxy.jpg?t=HBhpaHR0cHM6Ly9kZXZlbG9wZXIuaWJtLmNvbS90di93cC1jb250ZW50L3VwbG9hZHMvc2l0ZXMvNjIvMjAxNi8wOS9TY3JlZW4tU2hvdC0yMDE2LTA5LTE0LWF0LTEuMTguMjgtUE0ucG5nFOQTFKwKHBSEBhSUAwAAFgASAA&s=0Ae4L9nPzpUGmyuMD9Tkj-HhV6s1nkFi9_fd3YtAGrQ)](http://ibm.biz/WatsonWorkshop4javaOne2016)
 
